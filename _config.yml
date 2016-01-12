@@ -42,7 +42,7 @@ favicon: "img/winnie-the-pooh.gif"
 
 #black-favicon: "/img/intro-bg.jpg"
 
-background-img: "/img/seattle.jpg"
+background-img: "../img/seattle.jpg"
 
 ##############################
 # Dynamic Text on the Header #
