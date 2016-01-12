@@ -33,8 +33,8 @@ author: "Ariel Young"
 title: "Ariel Young"
 description: "Blog and website of Ariel Young, blogging mainly for tech. Opinions expressed are mine."
 keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/winnie-the-pooh.gif"
-404-img: "/img/labtocat.png"
+favicon: "img/winnie-the-pooh.gif"
+404-img: "img/labtocat.png"
 
 ################
 # Header layout #
