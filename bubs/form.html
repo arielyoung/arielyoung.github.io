@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Questionnaire </title>
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css"> 
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="banner">
+			<h1 id="logo"> A Y O U N G 1 1 - ITMD361 Final Project </h1>
+			<div id="navi">
+				<a href="./gallery.html">Gallery</a>  |  
+				<a href="./about.html"> About </a>  |  
+				Questionnaire |  
+				<a href="./map.html"> Dog Locations </a>
+			</div>
+		</div>
+		
+		<div id="content">
+			<h1> About <strong>YOU</strong> </h1>
+      <form class="quest">
+        <table class="quest">
+			<tr>
+				<td>          
+				  <h3 class="attribute"> Name:
+				</td>
+				<td>
+				  <input type="text" name="fname"> 
+				</td>
+			</tr>
+			<tr>
+				<td>          
+				  <h3 class="attribute"> Year:
+				</td>
+				<td>
+				  <input type="radio" name="gen" value="fre"> 1st Year
+				  <input type="radio" name="gen" value="soph"> 2nd Year
+				  <input type="radio" name="gen" value="jun"> 3rd Year
+				  <input type="radio" name="gen" value="sen"> 4th Year
+				  <input type="radio" name="gen" value="grad"> Grad
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3 class="attribute"> Favorite Color: </h3>
+				</td>
+				<td>
+					<select name="colors">
+						<option value="red"> Red </option>
+						<option value="green"> Green </option>
+						<option value="blue"> Blue </option>
+						<option value="yellow"> Yellow </option>
+						<option value="orange"> Orange </option>
+						<option value="purple"> Purple </option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3 class="attribute"> Favorite Animal: </h3>
+				</td>
+				<td>
+					<select name="colors">
+						<option value="cat"> Cat </option>
+						<option value="dog"> Dog </option>
+						<option value="fish"> Fish </option>
+						<option value="hamster"> Hamster </option>
+						<option value="snake"> Snake </option>
+						<option value="other"> Other </option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<div id="btn"> <h4> Submit </h4></div>
+      </form>
+		</div>
+		<script type="text/javascript" src="./javascript/form.js"></script>	
+	</body>
+</html>
